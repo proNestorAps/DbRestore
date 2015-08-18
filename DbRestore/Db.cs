@@ -4,6 +4,7 @@ using Dapper;
 
 namespace DbRestore
 {
+  //TODO: Use the description in this article to determine the version of .bak file: http://www.imiscommunity.com/restore_headeronly_how_to_check_the_version_of_a_sql_server_bak_file
   class Db
   {
     public static void RestoreDatabase(string sqlServerInstanceName, string backupFilePath, string dbName)
